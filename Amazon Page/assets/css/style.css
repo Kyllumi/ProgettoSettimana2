@@ -1,1 +1,189 @@
 /* Your styles here */
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e9edee;
+}
+
+main {
+  width: 98%;
+  margin: 0 auto;
+}
+
+/* REGOLE TESTI */
+nav a,
+main a {
+  text-decoration: none;
+}
+
+p {
+  display: inline;
+  padding: 0.5rem;
+}
+
+p,
+h1,
+h2 {
+  font-weight: bold;
+}
+
+h2 {
+  display: inline;
+  padding-right: 0.5rem;
+}
+
+h2 + a {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+header div.logo img {
+  width: 8%;
+  padding: 0.5rem 1rem;
+}
+
+/* SFONDI */
+header,
+footer div.footer-logo {
+  background-color: #222f3f;
+}
+
+nav,
+footer div.footer-nav {
+  background-color: #364759;
+}
+
+main {
+  text-align: center;
+}
+
+main a {
+  color: #386f7f;
+}
+
+main section.bar {
+  background-color: #f56600;
+}
+
+/* NAVBAR */
+nav ul {
+  padding: 0.5rem 1rem;
+}
+nav ul li {
+  display: inline;
+  padding: 0 0.5rem;
+}
+nav ul li a {
+  color: white;
+  font-size: 0.8rem;
+}
+
+/* SECTION */
+section {
+  margin: 2rem 0;
+}
+
+section.bar {
+  padding: 0.7rem;
+}
+
+section.bar a {
+  color: white;
+}
+
+/* SEZIONE GUIDE REGALI */
+section.holiday-gift {
+  background-image: url(../images/bg-image.png);
+  background-position: center;
+  background-size: contain;
+  height: 12.5rem;
+  color: white;
+}
+
+section.holiday-gift h1 {
+  font-size: 2.2rem;
+  padding: 5rem 0 1rem 0;
+}
+
+/* SEZIONE CON BOX IMMAGINI */
+section.perfect-gift {
+  text-align: left;
+  padding: 1rem;
+  height: 28rem;
+  background-color: white;
+}
+
+section.perfect-gift-title {
+  padding-bottom: 1rem;
+}
+
+div.boxes {
+  height: 90%;
+  text-align: center;
+}
+
+div.box {
+  height: 100%;
+  width: 22%;
+  display: inline-block;
+  background-position: center;
+  background-size: cover;
+  border-radius: 1rem;
+  margin: 1rem 1.5rem 0 1rem;
+  box-shadow: 17px 18px 15px -3px rgba(0, 0, 0, 0.3);
+}
+
+div.boxes #box1 {
+  background-image: url(../images/img_1.jpg);
+}
+div.boxes #box2 {
+  background-image: url(../images/img_2.jpg);
+}
+div.boxes #box3 {
+  background-image: url(../images/img_3.jpg);
+}
+div.boxes #box4 {
+  background-image: url(../images/img_4.jpg);
+}
+
+/* SEZIONI CON BANNER */
+section.videogames,
+section.audio {
+  height: 31rem;
+  margin-bottom: 2rem;
+  vertical-align: bottom;
+}
+
+section div.banner {
+  background-position: center;
+  background-size: cover;
+  height: 90%;
+  margin-bottom: 0.5rem;
+}
+
+section.videogames div.banner {
+  background-image: url(../images/img_9.png);
+}
+
+section.audio div.banner {
+  background-image: url(../images/img_10.png);
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+}
+
+footer div.footer-nav {
+  padding: 1rem;
+}
+
+footer div.footer-nav a {
+  color: white;
+  font-weight: bold;
+}
+
+footer div.footer-logo img {
+  width: 12%;
+  padding: 3rem;
+}
